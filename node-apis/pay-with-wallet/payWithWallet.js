@@ -64,7 +64,6 @@ const PayWithWallet = app.post('/', (req, res) => {
                         }
                     })
                 }
-                // res.send(result.walletMoney + "")
             }
             else {
                 res.status(404).send('User not found')
